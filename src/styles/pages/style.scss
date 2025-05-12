@@ -1,0 +1,49 @@
+html,
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+    color: rgb(0, 0, 0);
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 300px;
+  width: 100%;
+  margin-inline: auto;
+  margin-block: 0;
+}
+
+@media (min-width: 768px)
+{
+  .wrapper {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1280px)
+{
+  .wrapper {
+    max-width: 700px;
+  }
+}
+
+footer {
+  margin-top: auto;
+}
+
+.card {
+  max-width: 100%;
+  resize: horizontal;
+  overflow: scroll;
+  border: 1px solid black;
+  object-fit: cover;
+  width: 100%;
+}
